@@ -1,4 +1,5 @@
 # Loading the libraries we need for this assignment
+<<<<<<< HEAD
 
 library(shiny)
 
@@ -55,7 +56,7 @@ color: white;
 
 padding: 50px;}
  
-
+#adding more
 .about-header { display: flex;justify-content: center;align-items: center;gap: 20px;}
 
 .about-header img { width: 70px;height: 70px;border-radius: 50%;border: 3px solid white;object-fit: cover;}
@@ -68,3 +69,25 @@ padding: 50px;}
                                                       
                                                       
  
+=======
+library(shiny)
+library(tidyverse)
+library(bslib)
+library(thematic)
+library(plotly)
+library(DT)
+library(ggmosaic)
+
+
+# The darkly theme along with filter bars is obtained from garrett gmann who works for posit cloud : https://github.com/garrettgman/shiny-styling-demo/blob/main/finished-app/app.R
+ggplot2::theme_set(ggplot2::theme_minimal())
+thematic_shiny()
+
+#Defining the UI theme provided by Garrett gman
+ui <- navbarPage(
+title = "Digitalis Investigation Group (DIG) Trial",
+theme = bs_theme(bootswatch = "darkly",
+                   base_font = font_google("Lato"),
+                   heading_font = font_google("Raleway")))
+
+>>>>>>> 3b630ed2f07b2619461d47e4eec8748e769d711f
