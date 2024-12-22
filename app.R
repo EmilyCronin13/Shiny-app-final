@@ -54,4 +54,17 @@ text-align: center;
 color: white;
 
 padding: 50px;}
+ 
 
+.about-header { display: flex;justify-content: center;align-items: center;gap: 20px;}
+
+.about-header img { width: 70px;height: 70px;border-radius: 50%;border: 3px solid white;object-fit: cover;}
+
+.intro-box {background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */color: white;padding: 20px;margin: 20px 0;border-radius: 10px; text-align: left;}
+
+.image-container { display: flex;justify-content: center;align-items: center;gap: 20px;}
+
+.circle-image { width: 350px;height: 350px;object-fit: cover;border-radius: 50%;}"))),
+                                                      
+                                                      
+ 
